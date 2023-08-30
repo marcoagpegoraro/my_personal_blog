@@ -1,0 +1,7 @@
+export GOROOT=/usr/local/go
+export GOPATH=$GOROOT/src //your-go-workspace
+export GOBIN=$GOROOT/bin //where go-generate-executable-binaries
+
+PATH=$PATH:$GOPATH:$GOBIN
+
+export PATH

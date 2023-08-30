@@ -1,0 +1,7 @@
+{% include "partials/header.django" %}
+
+<h1 class="text-3xl font-bold underline">
+    {{ Title }}
+</h1>
+
+{% include "partials/footer.django" %}
